@@ -1,10 +1,14 @@
 # Prerequisites
 *.d
 
+# VS Code garbo
+.vscode/
+.vscode/**
+
 # Object files
 *.o
 *.ko
-*.obj
+*.obj 
 *.elf
 
 # Linker output
