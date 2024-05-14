@@ -846,6 +846,13 @@ int main(int argc, char *argv[]){
 
     for(int i = 0; i < CHAR_MAX; i++) {
         int temp = getchar();
+        if(i == CHAR_MAX - 2){
+            printf("\n\n");
+            if(debug != 0){
+                printDebug(yesNo, konamiCode, &temp);
+            }
+            break;
+        }
         if (temp == '\033') {
             getchar();
             switch(getchar()) {
