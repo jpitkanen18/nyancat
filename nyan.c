@@ -832,6 +832,10 @@ int main(int argc, char *argv[]){
         }
     }
 
+    if(debug != 0){
+        printf("nyancat-cli v420.0.1\n\n");
+    }
+
     int limit = 420;
     int counter = 0;
     int index = 0;

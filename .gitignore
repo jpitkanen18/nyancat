@@ -10,6 +10,7 @@
 *.ko
 *.obj 
 *.elf
+nyancat-cli
 
 # Linker output
 *.ilk
