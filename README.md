@@ -19,4 +19,4 @@ Very feature rich software provided to you by the Free Software Foundation (No a
  ### Glossary
  - CLI = Command Line Interface
  - ASCII = ?????
- - DEBUG = console.log()
+ - DEBUG = `console.log()`
